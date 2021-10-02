@@ -1,0 +1,35 @@
+.col-md-2, .col-md-8 {
+border: blueviolet solid double 15px;
+height: 250px;
+width: 420px;
+}
+
+h2 {
+font-size: 150px;
+text-align: center;
+}
+
+.flexbox-container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.flexbox-item { 
+border: blueviolet solid 5px;
+height: 250px;
+width: 380px;
+}
+
+.flexone {
+flex-shrink: 0;
+}
+
+.flextwo {
+flex-grow: 2;
+flex-shrink: 0;
+}
+
+.flexthree {
+flex-shrink: 0;    
+}
